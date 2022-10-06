@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+    <key>Summary</key>
+	<string>TCA Core</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>prefix</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Prefix:</string>
+			<key>Description</key>
+			<string>Prefix for TCA types</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Not Persisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>reducerPrefix</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Reducer Prefix:</string>
+			<key>Description</key>
+			<string>Prefix for the reducer variable</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Not Persisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
