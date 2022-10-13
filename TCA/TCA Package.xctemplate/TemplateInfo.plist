@@ -5,7 +5,7 @@
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
     <key>Summary</key>
-	<string>TCA Core</string>
+	<string>TCA Package</string>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
@@ -17,13 +17,13 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>prefix</string>
+			<string>packageName</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Prefix:</string>
+			<string>Package Name</string>
 			<key>Description</key>
-			<string>Prefix for TCA types</string>
+			<string>TCA Package Name</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>Not Persisted</key>
@@ -31,17 +31,35 @@
 		</dict>
 		<dict>
 			<key>Identifier</key>
-			<string>reducerPrefix</string>
+			<string>tcaUrl</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Reducer Prefix:</string>
+			<string>TCA Library URL</string>
 			<key>Description</key>
-			<string>Prefix for the reducer variable</string>
+			<string>TCA Library URL</string>
 			<key>Type</key>
 			<string>text</string>
+			<key>Default</key>
+			<string>https://github.com/pointfreeco/swift-composable-architecture</string>
 			<key>Not Persisted</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>tcaVersionFrom</string>
+			<key>Required</key>
 			<true/>
+			<key>Name</key>
+			<string>TCA Library Version (From)</string>
+			<key>Description</key>
+			<string>TCA Library Version (From)</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>0.9.0</string>
+			<key>Not Persisted</key>
+			<false/>
 		</dict>
 	</array>
 </dict>
